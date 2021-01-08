@@ -1,6 +1,4 @@
-import {FC} from 'react'
-//import Head from "next/head";
-//import styles from "../../styles/Home.module.css";
+import { FC } from "react";
 
 const Home: FC = () => {
 	return (
@@ -8,6 +6,6 @@ const Home: FC = () => {
 			<p>Hello World</p>
 		</div>
 	);
-}
+};
 
-export default Home
+export default Home;
