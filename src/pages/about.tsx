@@ -2,17 +2,17 @@ import { FC } from "react";
 import { Container, Box, Typography, Button } from "@material-ui/core";
 import Link from "next/link";
 
-const Home: FC = () => {
+const About: FC = () => {
 	return (
 		<Container maxWidth="sm">
 			<Box my={4}>
 				<Typography variant="h4" component="h1" gutterBottom>
-					Next.js example
+					Next.js About
 				</Typography>
-				<Link href="/about">
+				<Link href="/">
 					<Button variant="contained" color="primary">
 						{" "}
-						Go to About
+						Go to Home
 					</Button>
 				</Link>
 			</Box>
@@ -20,4 +20,4 @@ const Home: FC = () => {
 	);
 };
 
-export default Home;
+export default About;
